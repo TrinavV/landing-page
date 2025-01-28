@@ -1,5 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height:100vh;
+    margin:0;
 
 
 
@@ -16,15 +21,11 @@ body {
    color:#F9FAF8;
    font-size: 24px;
    justify-content: space-around;
-
-
-
-
-
+   
 }
 ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style-type:none;
 }
 
@@ -37,21 +38,31 @@ a{
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     color:#F9FAF8;
+    padding: 60px;
+    
+
     
 
 }
-.hero-text {
 
-}
 
 .main-hero {
     font-size: 48px;
     font-weight: 900;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 
 
+}
+
+.hero-image {
+    margin:0 30px;
+    
+}
+.image{
+    border-radius: 15px;
 }
 .signup {
     background-color: #3882F6;
@@ -59,8 +70,102 @@ a{
     border-radius: 15px;
     padding:10px 30px;
 }
-.container {
+
+h1 {
     text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+
+.body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+    
+    
     
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    
+
+}
+
+.text {
+    font-size: small;
+    margin-top: 2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin: 50px 0px;
+    
+    justify-content: center;
+}
+
+.main-quote {
+    align-self: flex-start;
+    font-size: 36px;
+    color: #1F2937;
+    font-family:'light italic',sans-serif;
+    
+    
+}
+.thor {
+    align-self: flex-end;
+    text-align: right;
+    margin-top: 10px;
+    
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    margin: 0px 150px;
+    border-radius: 15px;
+    color:#F9FAF8;
+    margin-bottom:30px;
+
+}
+.call {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    color:#F9FAF8;
+    padding:10px 30px;
+    border:#F9FAF8 solid;
+    border-radius: 15px;
+
+}
+
+.footer {
+    background-color:#1f2937 ;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 15px;
+    margin-top:auto;
+}
